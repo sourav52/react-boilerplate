@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "React & Redux Starter pack",
   "main": "index.js",
+  "repository": "https://github.com/sourav52/react-boilerplate",
   "directories": {
     "test": "test"
   },
