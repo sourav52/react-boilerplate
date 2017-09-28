@@ -1,0 +1,26 @@
+{
+  "name": "react-boilerplate",
+  "description": "React Starter pack",
+  "main": [],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  },
+  "devDependencies": {},
+  "moduleType": [],
+  "keywords": [
+    "React",
+    "Boilerpalte"
+  ],
+  "authors": [
+    "Sourav Kumar Dash <dash.sourav126@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
