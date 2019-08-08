@@ -1,15 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
+import Header from './components/header';
+import NewsContainer from './components/newscontainer';
+import SliderContainer from './components/slidercontainer';
+import NewsLetter from './components/newsletter';
+import Footer from './components/footer';
 
-import App from './components/app';
-import reducers from './reducers';
+const App = () => {
+	return (
+		<div>
+			<Header />
+			<NewsContainer />
+			<SliderContainer />
+			<NewsLetter />
+			<Footer />
+		</div>
+	);
+}
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
-
-ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
-  </Provider>
-  , document.querySelector('.container'));
+ReactDOM.render(<App />, document.querySelector('#wrapper'));

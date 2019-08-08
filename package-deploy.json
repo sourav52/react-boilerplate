@@ -11,7 +11,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "",
+  "author": "Sourav Kumar Dash <dash.sourav126@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -32,6 +32,7 @@
     "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
+    "react-hammerjs": "^0.5.0",
     "react-redux": "4.3.0",
     "react-router": "^2.0.1",
     "redux": "^3.0.4"
